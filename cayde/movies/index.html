@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+        <header class="header-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg">
+                                <!-- Logo -->
+                                <a class="navbar-brand" href="index.html"><style="width:84px;height:16px;"></a>
+                                <!-- Navbar Toggler -->
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                                <!-- Navbar -->
+                                <div class="collapse navbar-collapse" id="worldNav">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="trending.html">New and Trending</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="upcoming.html">Upcoming</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="topselling.html">Top Selling</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="specials.html">Specials</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+        <div id="myCarousel" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li  data-target="#myCarousel" data-slide-to="0" class="active" contenteditable="false"></li>
+                    <li data-target="#myCarousel" data-slide-to="1" class="" contenteditable="false"></li>
+                    <li data-target="#myCarousel" data-slide-to="2" class="" contenteditable="false"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item" style="">
+                        <a href="https://thewitcher.com/en/witcher3#" target="none">
+                        <img src="images/C Images/witcher3.jpg">
+                        </a>
+                    </div>
+                    <div class="item active">
+                        <a href="https://www.callofduty.com/blackops4" target="none">
+                        <img src="images/C Images/cod4.jpg">
+                      </a>
+                    </div>
+                    <div class="item" style="">
+                        <a href="https://worldofwarcraft.com/en-us/" target="none">
+                        <img src="images/C Images/world-of-warcraft-battle-for-azeroth-logo.jpg">
+                        </a>
+                    </div>
+                </div>    
+            
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+            
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+
+                <!-- /.row -->
+                <hr>
+
+  
+<div class="container">
+  <h2>Toggleable Tabs</h2>
+  <br>
+
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#Trending">New and Trending</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#topselling">Top Selling</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#f2p">Free to Play</a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="Trending" class="container tab-pane active"><br>
+      <!-- First Game in Trending-->
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="Market/overwatch.jpg">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Overwatch</h3>
+              <p>
+                Genre:FPS,Multiplayer                <br>
+                Developer:Blizzard Entertainment      <br>
+                Platform:PC,Xbox,PS4
+              </p>
+              <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">More Info</button>
+  <div id="demo" class="collapse">
+    Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment, which released on May 24, 2016 for PlayStation 4, Xbox One, and Windows.<br> 
+  <a href="https://us.shop.battle.net/en-us/product/overwatch?p=37693">Click here to Purchase!</a>
+  </div>
+
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay">Gameplay</button>
+  <div id ="gameplay" class="collapse">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="responsive_video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pYC44YPb_5k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+ 
+            </div>
+          </div>
+          <!-- /.row -->
+    
+          <hr>
+    
+          <!-- Second Game in Trending-->
+          <div class="row">
+              <div class="col-md-5">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="Market/rdr.jpg">
+                </a>
+              </div>
+              <div class="col-md-5">
+                <h3>Red Dead Redemption 2</h3>
+                <p>
+                  Genre:Openworld,Adventure,Action,Western-themed                <br>
+                  Developer:Rockstar Games      <br>
+                  Platform:Xbox,PS4
+                </p>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo2">More Info</button>
+    <div id="demo2" class="collapse">
+        Red Dead Redemption 2 is an upcoming Western-themed action-adventure video game developed and published by Rockstar Games. It is scheduled to be released for PlayStation 4 and Xbox One on October 26, 2018. The game is a prequel to the 2010 game Red Dead Redemption, and will be the third entry in the Red Dead series.<br> 
+    <a href="https://www.rockstargames.com/reddeadredemption2/order">Click here to Purchase!</a>
+    </div>
+  
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay2">Gameplay</button>
+    <div id ="gameplay2" class="collapse">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="responsive_video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eaW0tYpxyp0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    </div>
+              </div>
+            </div>
+
+            <hr>
+          
+          <!-- Third Game in Trending-->
+          <div class="row">
+              <div class="col-md-5">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="Market/d2.jpg">
+                </a>
+              </div>
+              <div class="col-md-5">
+                <h3>Destiny 2</h3>
+                <p>
+                  Genre:FPS,Grinding,Action,Loot                <br>
+                  Developer:Bungie      <br>
+                  Platform:PC,Xbox,PS4
+                </p>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo3">More Info</button>
+    <div id="demo3" class="collapse">
+        Destiny 2 is an online-only multiplayer first-person shooter video game developed by Bungie and published by Activision. It was released for PlayStation 4 and Xbox One on September 6, 2017, followed by a Microsoft Windows version the following month. It is the sequel to 2014's Destiny and its subsequent expansions.<br> 
+        <hr>
+    <a href="https://www.destinythegame.com/">Click here to Purchase!</a>
+    </div>
+  
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay3">Gameplay</button>
+    <div id ="gameplay3" class="collapse">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="responsive_video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8vCM5QisTJE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    </div>
+              </div>
+            </div>
+      
+            <hr>
+      <!-- Fourth Game in Trending-->
+
+      <div class="row">
+          <div class="col-md-5">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="Market/rbs.png">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Tom Clancy's Rainbow Six Siege</h3>
+            <p>
+              Genre:FPS,Tactical,Action                <br>
+              Developer:Ubisoft      <br>
+              Platform:PC,Xbox,PS4
+            </p>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo4">More Info</button>
+<div id="demo4" class="collapse">
+    Tom Clancy's Rainbow Six Siege is a tactical shooter video game developed by Ubisoft Montreal and published by Ubisoft. It was released worldwide for Microsoft Windows, PlayStation 4, and Xbox One on December 1, 2015. The game puts heavy emphasis on environmental destruction and cooperation between players.<br> 
+    <hr>
+<a href="https://rainbow6.ubisoft.com/siege/en-us/buy/index.aspx">Click here to Purchase!</a>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay4">Gameplay</button>
+<div id ="gameplay4" class="collapse">
+  <hr>
+  <hr>
+  <hr>
+  <hr>
+  <div class="responsive_video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/efqRe0XaTMA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+          </div>
+        </div>
+        
+        <hr>
+
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="Market/bf1.jpg">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Battlefield 1</h3>
+              <p>
+                Genre:FPS,Tactical,Action                <br>
+                Developer:Dice      <br>
+                Platform:PC,Xbox,PS4
+              </p>
+              <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo5">More Info</button>
+  <div id="demo5" class="collapse">
+      Battlefield 1 is a first-person shooter video game developed by EA DICE and published by Electronic Arts. Battlefield 1 is the fifteenth installment in the Battlefield series, and the first main entry in the series since Battlefield 4.<br> 
+      <hr>
+  <a href="https://www.origin.com/ind/en-us/store/battlefield/battlefield-1/interstitial">Click here to Purchase!</a>
+  </div>
+  
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay5">Gameplay</button>
+  <div id ="gameplay5" class="collapse">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="responsive_video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I6II_wcAVFI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  </div>
+            </div>
+          </div>
+
+    </div>
+    <div id="topselling" class="container tab-pane fade"><br>
+      <!-- first game in topselling -->
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="Market/tlou.jpg">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>The Last of Us               </h3>
+              <p>
+                Genre:Action,Adventure,Shooter                <br>
+                Developer:Avalanche Studios      <br>
+                Platform:PC,Xbox,PS4
+              </p>
+              <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo6">More Info</button>
+  <div id="demo6" class="collapse">
+      The Last of Us is an action-adventure survival horror video game developed by Naughty Dog and published by Sony Computer Entertainment. It was released for the PlayStation 3 worldwide on June 14, 2013.<br> 
+      <hr>
+  <a href="https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/">Click here to Purchase!</a>
+  </div>
+  
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay6">Gameplay</button>
+  <div id ="gameplay6" class="collapse">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="responsive_video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/46ohP30YA_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  
+            </div>
+          </div>
+          <!-- /.row -->
+    
+          <hr>
+    
+          <!-- game two in top selling -->
+          <div class="row">
+              <div class="col-md-5">
+                  <img class="img-fluid rounded mb-3 mb-md-0" src="Market/gow.jpg">
+                </a>
+              </div>
+              <div class="col-md-5">
+                <h3>God of War                </h3>
+                <p>
+                  Genre:Action,Adventure                <br>
+                  Developer:SIE Santa Monica      <br>
+                  Platform:PS4
+                </p>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo7">More Info</button>
+    <div id="demo7" class="collapse">
+        God of War is a mythology-based action-adventure video game franchise. Created by David Jaffe at Sony's Santa Monica Studio, the series debuted in 2005 on the PlayStation 2 video game console, and has become a flagship title for the PlayStation brand, consisting of eight games across multiple platforms.<br> 
+        <hr>
+    <a href="https://godofwar.playstation.com/">Click here to Purchase!</a>
+    </div>
+    
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay7">Gameplay</button>
+    <div id ="gameplay7" class="collapse">
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <div class="responsive_video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/K0u_kAWLJOA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    </div>
+              </div>
+      
+    </div>
+    <hr>
+        <!--Third game in top selling-->
+
+    <div class="row">
+        <div class="col-md-5">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="Market/gtav.jpg">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Grand Theft Auto V               </h3>
+          <p>
+            Genre:Action,Adventure,OpenWorld                <br>
+            Developer:Rockstar Games      <br>
+            Platform:PC,PS4,Xbox
+          </p>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo8">More Info</button>
+<div id="demo8" class="collapse">
+    Grand Theft Auto V is an action-adventure video game developed by Rockstar North and published by Rockstar Games. It was released in September 2013 for PlayStation 3 and Xbox 360, in November 2014 for PlayStation 4 and Xbox One, and in April 2015 for Microsoft Windows.<br> 
+  <hr>
+<a href="https://www.rockstargames.com/V/order">Click here to Purchase!</a>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay8">Gameplay</button>
+<div id ="gameplay8" class="collapse">
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="responsive_video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QkkoHAzjnUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+        </div>
+        
+</div>
+<hr> 
+        <!--Fourth game in top selling-->
+
+        <div class="row">
+          <div class="col-md-5">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="Market/mws.png">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Monster Hunter: World               </h3>
+            <p>
+              Genre:Action,Adventure,OpenWorld                <br>
+              Developer:Capcom     <br>
+              Platform:PC,PS4,Xbox
+            </p>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo9">More Info</button>
+  <div id="demo9" class="collapse">
+    Monster Hunter: World is an action role-playing game developed and published by Capcom. A part of the Monster Hunter series, it was released worldwide for PlayStation 4 and Xbox One in January 2018, with a Microsoft Windows version in August 2018.<br> 
+    <hr>
+  <a href="http://www.monsterhunterworld.com/pc/uk/">Click here to Purchase!</a>
+  </div>
+  
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay9">Gameplay</button>
+  <div id ="gameplay9" class="collapse">
+  <hr>
+  <hr>
+  <hr>
+  <hr>
+  <div class="responsive_video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ro6r15wzp2o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+          </div>
+          
+  </div>
+  <hr>
+      <!--Fifthe Game in Top Selling-->
+
+      <div class="row">
+        <div class="col-md-5">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="Market/fcv.jpg">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Far Cry 5              </h3>
+          <p>
+            Genre:Action,Adventure,OpenWorld                <br>
+            Developer:Ubisoft      <br>
+            Platform:PC,PS4,Xbox
+          </p>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo10">More Info</button>
+<div id="demo10" class="collapse">
+    Grand Theft Auto V is an action-adventure video game developed by Rockstar North and published by Rockstar Games. It was released in September 2013 for PlayStation 3 and Xbox 360, in November 2014 for PlayStation 4 and Xbox One, and in April 2015 for Microsoft Windows.<br> 
+  <hr>
+  <div class="responsive_video">
+<a href="https://far-cry.ubisoft.com/game/en-us/buy/index.aspx">Click here to Purchase!</a>
+</div>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay10">Gameplay</button>
+<div id ="gameplay10" class="collapse">
+<hr>
+<hr>
+<hr>
+<hr>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NNj0f0pLbqA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+        </div>
+        <hr>
+</div>
+  </div>
+  <!--Copy from here for additional menu-->
+  
+  <div id="f2p" class="container tab-pane fade"><br>
+    <!-- first game in topselling -->
+      <div class="row">
+          <div class="col-md-5">
+              <img class="img-fluid rounded mb-3 mb-md-0" src="Market/fortnite.jpg">
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3>Fortnite               </h3>
+            <p>
+              Genre:Action,Shooter,Battle Royale                <br>
+              Developer:Epic Games      <br>
+              Platform:PC,Xbox,PS4
+            </p>
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo12">More Info</button>
+<div id="demo12" class="collapse">
+  Fortnite is an online video game first released in 2017 and developed by Epic Games. It is available as separate software packages having different game modes that otherwise share the same general gameplay and game engine.<br> 
+    <hr>
+<a href="https://www.playstation.com/en-us/games/the-last-of-us-remastered-ps4/">Click here to Purchase!</a>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay12">Gameplay</button>
+<div id ="gameplay12" class="collapse">
+  <hr>
+  <hr>
+  <hr>
+  <hr>
+  <div class="responsive_video">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Q19apeXtGXE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+          </div>
+        </div>
+        <!-- /.row -->
+  
+        <hr>
+  
+        <!-- Second in  in free -->
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="Market/warframe.jpg">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Warframe                </h3>
+              <p>
+                Genre:ActionMultiplayer,Loot-Based                <br>
+                Developer:Digital Extremes      <br>
+                Platform:PS4,PC,Xbox
+              </p>
+              <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo13">More Info</button>
+  <div id="demo13" class="collapse">
+    Warframe is a free-to-play cooperative third-person shooter video game developed and published by Digital Extremes. Originally released for Microsoft Windows in March 2013, it was later ported to the PlayStation 4, Xbox One, and will release on the Nintendo Switch November 20th.</br>
+      <hr>
+  <a href="https://store.steampowered.com/app/440/Team_Fortress_2/">Click here to Download!</a>
+  </div>
+  
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay13">Gameplay</button>
+  <div id ="gameplay13" class="collapse">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <div class="responsive_video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qJFduGyIhZI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  </div>
+            </div>
+    
+  </div>
+  <hr>
+      <!--Third game in top selling-->
+
+  <div class="row">
+      <div class="col-md-5">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="Market/tf2.jpg">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <h3>Team Fortress 2               </h3>
+        <p>
+          Genre:Action,Multiplayer,Shooter,FPS                <br>
+          Developer:Valve      <br>
+          Platform:PC
+        </p>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo11">More Info</button>
+<div id="demo11" class="collapse">
+  Team Fortress 2 is a team-based multiplayer first-person shooter video game developed and published by Valve Corporation. It is the sequel to the 1996 mod Team Fortress for Quake and its 1999 remake, Team Fortress </br>
+<hr>
+<a href="https://www.rockstargames.com/V/order">Click here to Purchase!</a>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay11">Gameplay</button>
+<div id ="gameplay11" class="collapse">
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="responsive_video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GLlLQ3LmZWU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+      </div>
+      
+</div>
+<hr> 
+      <!--Fourth game in free 2 play-->
+
+      <div class="row">
+        <div class="col-md-5">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="Market/hearth.jpg">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Hearthstone               </h3>
+          <p>
+            Genre:Strategy,Card game                <br>
+            Developer:Blizzard Entertainment     <br>
+            Platform:PC
+          </p>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo14">More Info</button>
+<div id="demo14" class="collapse">
+  Hearthstone, originally Hearthstone: Heroes of Warcraft, is a free-to-play online collectible card video game developed and published by Blizzard Entertainment.<br> 
+  <hr>
+<a href="https://playhearthstone.com/en-us/">Click here to Download!</a>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay14">Gameplay</button>
+<div id ="gameplay14" class="collapse">
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="responsive_video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vPguoeYTvMI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+        </div>
+        
+</div>
+<hr>
+    <!--Fifth Game in free 2 play-->
+
+    <div class="row">
+      <div class="col-md-5">
+          <img class="img-fluid rounded mb-3 mb-md-0" src="Market/poe.jpg">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <h3>Path of Exile              </h3>
+        <p>
+          Genre:Action,Adventure,OpenWorld,Loot-Based                <br>
+          Developer:Grinding Gear Games      <br>
+          Platform:PC,Xbox
+        </p>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo15">More Info</button>
+<div id="demo15" class="collapse">
+  Path of Exile is a free-to-play action role-playing video game developed and published by Grinding Gear Games. Following an open beta phase, the game was released in October 2013. A version for Xbox One was released in August 2017.<br> 
+<hr>
+<a href="https://www.pathofexile.com/game">Click here to Purchase!</a>
+</div>
+
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#gameplay15">Gameplay</button>
+<div id ="gameplay15" class="collapse">
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="responsive_video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/h-YabwBiPxk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+      </div>
+      <hr>
+</div>
+</div> 
+</div>
+
+</div>
+          
+               
+
+    
+    <!-- Active js -->
+    <script src="js/active.js"></script>         
+    
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>   
+</body>
+</html>
